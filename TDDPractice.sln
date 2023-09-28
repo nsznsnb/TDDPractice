@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDPractice", "TDDPractice\TDDPractice.csproj", "{D7CFA521-B5D2-4BCB-B794-529887A24608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDPractice.Test", "TDDPractice.Test\TDDPractice.Test.csproj", "{1856C13A-EA66-40A7-9ECB-0C8D15B41610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{837C1281-5415-440C-9CF5-C7EC630A08E4}"
+	ProjectSection(SolutionItems) = preProject
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CFA521-B5D2-4BCB-B794-529887A24608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CFA521-B5D2-4BCB-B794-529887A24608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CFA521-B5D2-4BCB-B794-529887A24608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CFA521-B5D2-4BCB-B794-529887A24608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1856C13A-EA66-40A7-9ECB-0C8D15B41610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1856C13A-EA66-40A7-9ECB-0C8D15B41610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1856C13A-EA66-40A7-9ECB-0C8D15B41610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1856C13A-EA66-40A7-9ECB-0C8D15B41610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A885D1F0-A491-4F8C-BA4D-3C5ADF20F923}
+	EndGlobalSection
+EndGlobal
