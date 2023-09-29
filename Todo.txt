@@ -1,5 +1,5 @@
 [] $5 + 10CHF=$10 (レートが2:1の場合)
 [〇] $5 * 2 = $10
 [] amountをprivateにする
-[] Dollarの副作用
+[〇] Dollarの副作用
 [] Monayの丸め処理

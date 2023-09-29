@@ -14,11 +14,20 @@ namespace TDDPractice
             this._amount = amount;
         }
 
-        public int Amount { get; set; } = 10;
+        public int Amount { 
+            get
+            {
+                return _amount;
+            }
+            set
+            {
+                _amount = value;
+            }
+        }
 
-        public void Times(int multiplier)
+        public Dollar Times(int multiplier)
         {
-            _amount *= multiplier;
+            return new Dollar(_amount * multiplier);
         }
     }
 }
