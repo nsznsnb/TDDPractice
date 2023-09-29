@@ -5,7 +5,7 @@ namespace TDDPractice.Test
     public class MoneyTest
     {
         [Fact]
-        public void Š|‚¯Z()
+        public void Dollar‚ÌŠ|‚¯Z()
         {
             Dollar five = new Dollar(5);
             Dollar product = five.Times(2);
@@ -15,10 +15,18 @@ namespace TDDPractice.Test
         }
 
         [Fact]
-        public void “™‰¿«()
+        public void Dollar‚Ì“™‰¿«()
         {
             Assert.True(new Dollar(5).Equals(new Dollar(5)));
             Assert.False(new Dollar(5).Equals(new Dollar(6)));
+        }
+
+        [Fact]
+        public void Franc‚ÌŠ|‚¯Z()
+        {
+            Franc five = new Franc(5);
+            Assert.Equal(new Franc(10), five.Times(2));
+            Assert.Equal(new Franc(15), five.Times(3));
         }
     }
 }
