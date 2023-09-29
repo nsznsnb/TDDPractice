@@ -29,5 +29,11 @@ namespace TDDPractice
         {
             return new Dollar(_amount * multiplier);
         }
+
+        public override bool Equals(object? obj)
+        {
+            Dollar dollar = (Dollar)obj;
+            return Amount == dollar.Amount;
+        }
     }
 }

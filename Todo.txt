@@ -2,4 +2,8 @@
 [〇] $5 * 2 = $10
 [] amountをprivateにする
 [〇] Dollarの副作用
-[] Monayの丸め処理
+[] Moneyの丸め処理
+[〇] equals()
+[] hashCode()
+[] nullとの等価性比較
+[] 他のオブジェクトとの等価比較
