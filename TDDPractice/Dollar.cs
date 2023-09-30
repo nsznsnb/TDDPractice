@@ -8,16 +8,14 @@ namespace TDDPractice
 {
     public class Dollar : Money
     {
-        public Dollar(int amount)
+        public Dollar(int amount, string currency) : base(amount, currency) 
         {
-            this._amount = amount;
         }
-
 
 
         public override Money Times(int multiplier)
         {
-            return new Dollar(_amount * multiplier);
+            return Money.Dollar(Amount * multiplier);
         }
 
 

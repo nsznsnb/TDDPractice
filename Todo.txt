@@ -1,14 +1,16 @@
 [] $5 + 10CHF=$10 (レートが2:1の場合)
 [〇] $5 * 2 = $10
-[] amountをprivateにする
+[〇] amountをprivateにする
 [〇] Dollarの副作用
 [] Moneyの丸め処理
 [〇] equals()
 [] hashCode()
 [] nullとの等価性比較
 [] 他のオブジェクトとの等価比較
+[〇] 5 CHF * 2 = 10 CHF
 [] DollarとFrancの重複
 [〇] equalsの一般化
 [] timesの一般化
 [〇] FrancとDollarを比較する
-[] 通貨の概念
+[〇] 通貨の概念
+[] テスト[Francの掛け算]を削除する?
