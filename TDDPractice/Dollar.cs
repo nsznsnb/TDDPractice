@@ -6,34 +6,20 @@ using System.Threading.Tasks;
 
 namespace TDDPractice
 {
-    public class Dollar
+    public class Dollar : Money
     {
-        private int _amount;
         public Dollar(int amount)
         {
             this._amount = amount;
         }
 
-        public int Amount { 
-            get
-            {
-                return _amount;
-            }
-            set
-            {
-                _amount = value;
-            }
-        }
+
 
         public Dollar Times(int multiplier)
         {
             return new Dollar(_amount * multiplier);
         }
 
-        public override bool Equals(object? obj)
-        {
-            Dollar dollar = (Dollar)obj;
-            return Amount == dollar.Amount;
-        }
+
     }
 }
