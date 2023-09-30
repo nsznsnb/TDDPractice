@@ -36,5 +36,11 @@ namespace TDDPractice.Test
             Assert.False(new Franc(5).Equals(new Franc(6)));
         }
 
+        [Fact]
+        public void Dollar‚ÆFranc‚Ì“™‰¿«()
+        {
+            Assert.False(new Franc(5).Equals(new Dollar(5)));
+        }
+
     }
 }
